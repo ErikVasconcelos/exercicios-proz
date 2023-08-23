@@ -1,0 +1,58 @@
+def achar_elemento(elemento, itens):
+
+    for i in range(len(itens)):
+
+        if itens[i] == elemento:
+
+            return i  # Retorna o índice do elemento encontrado
+
+    return -1  # Retorna -1 se o elemento não for encontrado
+ 
+
+array = ["Ana", "Bruna", "Carlos", "Duarte", "Fagundes", "Randerson"]
+
+array2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+
+while True:
+
+    elemento_procurado = input("Digite o elemento que deseja procurar: ")
+ 
+
+    # Procura no primeiro array
+
+    indice_encontrado = achar_elemento(elemento_procurado, array)
+
+    if indice_encontrado != -1:
+
+        print(f'Achamos o elemento "{elemento_procurado}" no índice: {indice_encontrado} do primeiro array.')
+
+        break
+
+    else:
+
+        print(f'Não achamos o elemento "{elemento_procurado}" no primeiro array.')
+
+  
+
+    # Procura no segundo array
+
+    try:
+
+        elemento_procurado = int(elemento_procurado)
+
+        indice_encontrado = achar_elemento(elemento_procurado, array2)
+
+        if indice_encontrado != -1:
+
+            print(f'Achamos o elemento "{elemento_procurado}" no índice: {indice_encontrado} do segundo array.')
+
+            break
+
+        else:
+
+            print(f'Não achamos o elemento "{elemento_procurado}" no segundo array.')
+
+    except ValueError:
+
+        print('Digite um valor válido (um número inteiro) ou um elemento do primeiro array.')

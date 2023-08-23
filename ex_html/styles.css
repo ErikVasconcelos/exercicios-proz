@@ -1,0 +1,50 @@
+h1 {
+    font-size: 50px;
+    color: white;
+    background-color: blue;
+}
+
+.caixa-cima {
+    padding-top: 20px;
+    padding-right: 40px;
+    padding-bottom: 60px ;
+    padding-left: 80px;
+
+    margin-top: 80px;
+    margin-right: 60px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+
+    border: 20px solid green;
+    font-size: 50px;
+}
+
+.caixa-meio {
+    padding-top: 20px;
+    padding-right: 40px;
+    padding-bottom: 60px ;
+    padding-left: 80px;
+
+    margin-top: 80px;
+    margin-right: 60px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+
+    border: 20px solid yellow;
+    font-size: 50px;
+}
+
+.caixa-baixo {
+    padding-top: 20px;
+    padding-right: 40px;
+    padding-bottom: 60px ;
+    padding-left: 80px;
+
+    margin-top: 80px;
+    margin-right: 60px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+
+    border: 20px solid blue;
+    font-size: 50px;
+}
