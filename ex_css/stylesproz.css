@@ -37,6 +37,7 @@ main {
   margin: 0 auto;
   width: 50%;
   border-radius: 10px;
+  min-height: 70vh;
 }
 
 section {
@@ -78,4 +79,22 @@ button {
 
 button:hover {
   opacity: 0.8;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: auto;
+  
+}
+
+.footer-div {
+  height: 12px;
+  width: 0 auto;
+  font-size: 10px;
+  color: white;
+  text-align: center;
+  background-color: rgb(127, 46, 151);
+  
 }
