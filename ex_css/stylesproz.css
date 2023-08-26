@@ -16,10 +16,6 @@ body {
   background-color: blueviolet;
 }
 
-nav {
-  /* background-color: #EF7D19; */
-}
-
 ul {
   display: flex;
   height: 100%;
